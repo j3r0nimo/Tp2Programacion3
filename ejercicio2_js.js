@@ -5,6 +5,7 @@ function agregarElemento(){
     
     // si hay contenido en la variable
     if (textoIngresado.trim() !== ""){
+        console.log(textoIngresado)
 
         // se crea un elemento <LI> y se le asigna contenido
         // se le agregan espacios para separarse del botón
