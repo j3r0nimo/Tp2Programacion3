@@ -1,5 +1,6 @@
-const form = document.getElementById("formulario");
-form.addEventListener("submit",(e)=>{e.preventDefault();
+const enviar = document.getElementById("enviar");
+
+enviar.addEventListener("click",(e)=>{e.preventDefault();
     const nombre = document.getElementById("nombre").value;
     const nombreV = document.getElementById("nombreV");
     const email = document.getElementById("email").value;
